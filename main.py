@@ -708,7 +708,7 @@ Plymouth.SetRefreshFunction(refresh_callback);
         # Reset UI
         self.name_row.set_text("")
         self.desc_row.set_text("")
-        self.file_label.set_text("No file selected")
+        self.file_row.set_subtitle("No file selected")
         self.aspect_group.set_visible(False)
         self.aspect_row.set_selected(0)
         self.mode_row.set_selected(0)
